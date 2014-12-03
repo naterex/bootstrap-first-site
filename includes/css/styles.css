@@ -43,6 +43,14 @@ Notes:	 Hand coded for Udemy.com
    margin-top: 60px;
 }
 
+.carousel-caption {
+   font-size: 24px;
+}
+
+.carousel-caption h4 {
+   font-size: 32px;
+}
+
 #myCarousel .item {
    height: 400px;
 }
@@ -76,6 +84,14 @@ Notes:	 Hand coded for Udemy.com
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
+
+   .carousel-caption {
+      font-size: 16px;
+   }
+
+   .carousel-caption h4 {
+      font-size: 22px;
+   }
 
    #myCarousel .item {
       height: 310px;
