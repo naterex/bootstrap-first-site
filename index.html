@@ -4,8 +4,8 @@
 	<head>
 
 		<!-- Website Title & Description for Search Engine purposes -->
-		<title></title>
-		<meta name="description" content="">
+		<title>My first Bootstrap 3 website</title>
+		<meta name="description" content="Nate Welling's first Bootstrap 3 website">
 
 		<!-- Mobile viewport optimized -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -147,8 +147,31 @@
 			<div class="row" id="bigCallout">
 				<div class="col-12">
 
-				</div>
-			</div><!-- end bigCallout-->
+					<div class="alert alert-success alert-block fade in" id="successAlert">
+						<button type="button" class="close" data-dismiss="alert">&times;</button>
+
+						<h4>Success!</h4>
+						<p>You just made this element display by using jQuery. Click the "x" in the top right corner to close this bad boy.</p>
+					</div><!-- end alert -->
+
+					<!-- Visible only on small devices -->
+					<div class="well well-small visible-sm">
+						<a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Give us a call!</a>
+					</div><!-- end well-small -->
+
+					<div class="well">
+						<div class="page-header">
+							<h1>A Fancy Header <small>A subheader for extra awesome.</small></h1>
+						</div><!-- end page-header -->
+
+						<p class="lead">Some solid leading copy will help get your users engaged. Use this area to come up with something real nice. Know what I'm sayin?</p>
+
+						<a href="" class="btn btn-large btn-primary" id="alertMe">Click a nice big button</a>
+						<a href="" class="btn btn-large btn-link">or a secondary link</a>
+					</div><!-- end well -->
+
+				</div><!-- end col-12 -->
+			</div><!-- end bigCallout -->
 
 
 			<div class="row" id="featuresHeading">
