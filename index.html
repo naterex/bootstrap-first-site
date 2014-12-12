@@ -245,8 +245,9 @@
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quae a, animi ab accusantium facilis vero obcaecati error maxime dolores. Voluptates fuga deserunt eum odit, possimus quisquam assumenda praesentium inventore.</p>
 
 								<hr>
+								<p><strong><span rel="tooltip" data-placement="top" title="" data-original-title="Tooltip on top for hover">Hover over this for example of tooltip on text:</span></strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita et voluptate accusantium doloremque sunt in, magnam ad.</p>
 
-								<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"> Click for a Modal Window</span></a>
+								<a href="#myModal" role="button" class="center-block btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"> Click for a Modal Window</span></a>
 
 								<div class="modal fade" id="myModal">
 									<div class="modal-dialog">
@@ -259,9 +260,9 @@
 												<h4>Text in a modal</h4>
 												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi beatae nisi ex hic saepe voluptatum, voluptate vero inventore dolores, voluptas quos ratione. Obcaecati tenetur dicta veniam assumenda illum, quisquam laudantium.</p>
 												<h4>Popovers in a modal</h4>
-												<a href="#" class="btn btn-danger btn-block pop">Don't click this button!</a>
+												<a href="#" class="btn btn-danger btn-block pop" data-toggle="popover" data-placement="top" data-original-title="You clicked it." data-content="I knew you would.">Don't click this button!</a>
 												<h4>Tooltips in a modal</h4>
-												<a href="#">This link</a> should have a tooltip, and so should <a href="#">this one</a>.
+												<a href="#" data-original-title="Tooltip" rel="tooltip">This link</a> should have a tooltip, and so should <a href="#" data-original-title="Woohoo!" rel="tooltip">this one</a>.
 												<hr>
 												<p><small class="text-muted">P.S. This form doesn't do anything, just a heads up.</small></p>
 												<form class="form-horizontal">
