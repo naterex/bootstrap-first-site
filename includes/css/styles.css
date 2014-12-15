@@ -26,6 +26,13 @@ Notes:	 Hand coded for Udemy.com
    margin-bottom: 15px
 }
 
+footer {
+   background: #333;
+   color: #eee;
+   font-size: 11px;
+   padding: 20px;
+}
+
 /* --------------------------------------
    Typography
    -------------------------------------- */
@@ -41,6 +48,11 @@ body {
 
 .well .h1 {
    margin-top: 0;
+}
+
+ul.unstyled {
+   list-style: none;
+   padding: 0px;
 }
 
 /* --------------------------------------
@@ -104,13 +116,49 @@ body {
    margin: 0px 20px 10px 0px;
 }
 
+.thumbnails {
+   margin: 20px 0px;
+}
+
+.thumbnail {
+   position: relative;
+}
+
+.thumbnail h3 {
+   font-size: 16px;
+   margin: 0 0 10px;
+   line-height: 20px;
+}
+
+.thumbnail .price {
+   font-size: 22px;
+   position: absolute;
+   top: -10px;
+   right: -10px;
+   padding: 10px;
+}
+
+.thumbnail .price sup {
+   font-weight: normal;
+   font-size: 12px;
+}
+
+.thumbnail span.glyphicon {
+   margin-right: 5px;
+}
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
+   .thumbnail .price {
+      font-size: 10px;
+   }
 
+   .thumbnail .price sup {
+      font-size: 10px;
+   }
 }
 
 /* Landscape phone to portrait tablet */
